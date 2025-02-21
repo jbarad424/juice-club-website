@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>This Week’s Juices | Juice Club</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* Global Styles */
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: linear-gradient(135deg, #fdfbfb, #ebedee);
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.8em;
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #7f8c8d;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.8em;
+      color: #34495e;
+      border-bottom: 2px solid #ecf0f1;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.4em;
+      color: #2c3e50;
+      margin-bottom: 12px;
+    }
+    p {
+      margin-bottom: 15px;
+      font-size: 1em;
+      color: #555;
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+    .pricing-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    .pricing-table th,
+    .pricing-table td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+      font-size: 0.95em;
+    }
+    .pricing-table th {
+      background-color: #ecf0f1;
+      color: #2c3e50;
+    }
+    .order-info {
+      background: #dff0d8;
+      padding: 20px;
+      border-left: 5px solid #3c763d;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .mood-pairings span {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 1.05em;
+    }
+    a.button {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #27ae60;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 30px;
+      transition: background 0.3s ease;
+    }
+    a.button:hover {
+      background: #219150;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #7f8c8d;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+      header h1 {
+        font-size: 2.2em;
+      }
+      h2 {
+        font-size: 1.6em;
+      }
+      h3 {
+        font-size: 1.3em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>🍊 This Week’s Juices 🍏</h1>
+      <p>Fresh, organic, and made with love—every week. Here’s what’s available:</p>
+    </header>
+
+    <!-- Next Pressing Date Section -->
+    <section id="pressing">
+      <h2>🗓 Next Pressing Date</h2>
+      <p><strong>Friday, Feb 21 (Early Pressing)</strong></p>
+      <p>
+        <strong>Fresh Juice Pickup Options:</strong><br>
+        Fri, Feb 21 | 7 PM – 10 PM<br>
+        Sat, Feb 22 | 8 AM – 12 PM
+      </p>
+      <p><strong>Frozen Juice:</strong> Available anytime by appointment.</p>
+      <p><strong>Pickup Location:</strong><br>126 Leonard St, Brooklyn, NY 11206</p>
+    </section>
+
+    <!-- Juice Blend Section -->
+    <section id="blend">
+      <h2>🥤 This Week’s Blend</h2>
+      <p><em>100% Organic, Nutrient-Packed Goodness</em></p>
+      <h3>Base Ingredients</h3>
+      <p>
+        🍏 3 Apples | 🍋 3 Lemons | 🥕 1/4 lb Carrots | 🥒 1 Cucumber<br>
+        🌱 2 Celery Heads | 🌟 1/3 lb Ginger | 💛 1/3 lb Turmeric
+      </p>
+      <h3>Greens for an Extra Boost</h3>
+      <p>
+        🌾 1/3 lb Wheatgrass | 🌿 1/3 lb Spearmint | 🌱 1/2 lb Parsley<br>
+        🥬 2 lb Lacinato Kale | 🥗 1/2 lb Arugula
+      </p>
+      <h3>Special Add-Ons (Included in Every Order)</h3>
+      <p>
+        🍄 Paul Stamets Host Defense Mushroom Blend (Immunity Boost)<br>
+        🌶 Organic Black Peppercorn Extract
+      </p>
+    </section>
+
+    <!-- Pricing & Sizes Section -->
+    <section id="pricing">
+      <h2>💰 Pricing & Sizes</h2>
+
+      <h3>64 oz Fresh Classic – $65</h3>
+      <table class="pricing-table">
+        <tr>
+          <th>Item</th>
+          <th>Cost</th>
+        </tr>
+        <tr>
+          <td>Organic Juice (64 oz)</td>
+          <td>$48</td>
+        </tr>
+        <tr>
+          <td>Immunity & Extracts<br>(Mushroom Blend + Black Peppercorn)</td>
+          <td>$10</td>
+        </tr>
+        <tr>
+          <td>Reusable Glass Jar + Lid Deposit</td>
+          <td>$7</td>
+        </tr>
+        <tr>
+          <th>Total (Covers Everything)</th>
+          <th>$65</th>
+        </tr>
+      </table>
+      <p><em>Optional donation appreciated!</em></p>
+      <p><strong>Best for:</strong> Drinking fresh within 2 days (or extend freshness by adding seltzer water).</p>
+
+      <h3>Personal Size (16 oz, Freeze-Ready) – $14</h3>
+      <table class="pricing-table">
+        <tr>
+          <th>Item</th>
+          <th>Cost</th>
+        </tr>
+        <tr>
+          <td>Organic Juice (12 oz, Vac-Sealed)</td>
+          <td>$9</td>
+        </tr>
+        <tr>
+          <td>Immunity & Extracts<br>(Mushroom Blend + Black Peppercorn)</td>
+          <td>$2</td>
+        </tr>
+        <tr>
+          <td>Reusable Glass Jar + Lid Deposit</td>
+          <td>$3</td>
+        </tr>
+        <tr>
+          <th>Total (Covers Everything)</th>
+          <th>$14</th>
+        </tr>
+      </table>
+
+      <h3>Bulk Orders (Personal Size Jars)</h3>
+      <p>
+        3 Jars (36 oz) → $42<br>
+        4 Jars (48 oz) → $56<br>
+        5 Jars (60 oz) → $70<br>
+        6 Jars (72 oz) → $84<br>
+        7 Jars (84 oz) → $98<br>
+        8 Jars (96 oz) → $112<br>
+        9 Jars (108 oz) → $126<br>
+        10 Jars (120 oz) → $140<br>
+        <em>More available! Add $14 per jar.</em>
+      </p>
+      <p>🧊 <strong>Frozen Option:</strong> Just ask! Juice stays fresh in the freezer for months.</p>
+    </section>
+
+    <!-- How to Order Section -->
+    <section id="order">
+      <h2>🛍 How to Order</h2>
+      <p>DM Arnold with:</p>
+      <ul>
+        <li>Your preferred <strong>size & quantity</strong></li>
+        <li><strong>Pickup time</strong> (Fresh or Frozen)</li>
+        <li>Any <strong>special requests</strong> (bulk, fasting, extra frozen stash)</li>
+      </ul>
+      <div class="order-info">
+        <p><strong>This is a not-for-profit effort</strong> – all proceeds go toward sourcing the best organic ingredients and providing free juice to those in need. Donations are deeply appreciated!</p>
+      </div>
+    </section>
+
+    <!-- Mood Pairings Section -->
+    <section id="mood">
+      <h2>🌟 Just for Fun: Mood Pairings!</h2>
+      <div class="mood-pairings">
+        <span>🥤 <strong>Citrus Boost:</strong> Feeling sluggish? This one's for you!</span>
+        <span>🌿 <strong>Green Power:</strong> Refreshing & detoxifying – perfect post-workout.</span>
+        <span>💛 <strong>Golden Glow:</strong> Turmeric & ginger magic for immune support.</span>
+      </div>
+    </section>
+
+    <!-- Announcements Section -->
+    <section id="announcements">
+      <h2>🔔 Announcements & Special Requests</h2>
+      <p>
+        💡 Need juice outside of press times? Check for frozen stock!<br>
+        💃 Hosting a party or planning a cleanse? Bulk orders available!<br>
+        🚀 Want to join or leave the Juice Club texts? Just let me know.
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Lots of love, <br><strong>Arnold</strong> 💚</p>
+      <p><a class="button" href="#order">Order Now</a></p>
+    </footer>
+  </div>
+</body>
+</html>
